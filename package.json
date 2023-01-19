@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "npx eslint --fix",
     "prettier": "npx prettier  \"src/**/*.+(ts|js|html|json)\" --check",
     "prettier:fix": "prettier --write \"src/**/*.+(ts|js|html|json)\"",
     "prepare": "husky install"
